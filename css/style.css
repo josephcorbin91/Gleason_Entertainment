@@ -137,7 +137,7 @@ header a:hover{
 
 /* Showcase */
 #showcase{
-  min-height:400px;
+  min-height:1000px;
   background:url('../img/showcase.jpg') no-repeat 0 -400px;
   text-align:center;
   color:#ffffff;
@@ -218,12 +218,18 @@ ul#services li{
   background:#e6e6e6;
 }
 
+
 footer{
+ background:#121F1F;
+  color:#ffffff;
   padding:20px;
   margin-top:20px;
-  color:#ffffff;
-  background-color:#e8491d;
-  text-align: center;
+  width:100%;
+  bottom:0;
+  min-height:100px;
+  left:0;
+  position:fixed;
+  
 }
 
 /* Media Queries */
